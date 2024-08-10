@@ -57,6 +57,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             #BASE_DIR/"challenges"/"templates" # need to manually add this to find template!
+            BASE_DIR /"templates"
         ],
         'APP_DIRS': True, #look for template in app folders
         'OPTIONS': {
@@ -119,6 +120,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# add for global css files!
+STATICFILES_DIRS=[
+    BASE_DIR/"static",
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

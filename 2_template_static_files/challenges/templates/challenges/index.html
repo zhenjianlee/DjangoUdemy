@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "challenges/challenges.css" %}"/>
+    <link rel="stylesheet" href="{% static "challenges/header.css" %}"/>
+{% endblock %}
+
+{% block page_title %}
+    All Challenges
+{% endblock %}
+
+{% block content %}
+    {% include "challenges/includes/header.html" with active_page="index"%}
+    {% comment %} <div>
+        <h1> All Challenges</h1>
+        <h3>Jian's Solution - Using dictionary </h3>
+        <ul>
+            {% for month, url in urls.items %}
+                <li> <a href={{url}}> {{month|title}} </a></li>
+            {% endfor %}
+        <ul>
+    </div> {% endcomment %}
+        <h3> Course Solution - Using  url tag  </h3>
+        <ul>
+            {% for month in months %}
+                <li> <a href="{% url "month-challenge" month %}"> {{ month|title}} </a> </li>
+            {% endfor %}
+        </ul>
+{% endblock %}
