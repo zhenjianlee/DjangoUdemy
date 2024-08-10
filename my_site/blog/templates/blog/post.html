@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "blog/post.css" %}"/>
+<link rel="stylesheet" href="{% static "blog/header.css" %}"/>
+{% endblock %}
+
+{% block page_title %}
+{{title_data}}
+{% endblock %}
+
+
+{% block content %}
+    {% include "blog/includes/header.html" %}
+    <h1> Post </h1>
+
+    <h3>{{content_data}}</h3>
+
+{% endblock %}
