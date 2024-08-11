@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_title %} 
+All Books
+{% endblock %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "book_store/index.css" %}"/>
+{% endblock %}
+
+{% block content %} 
+
+    <h1> All Books </h1>
+    <h2> Total books : {{ book_count }} </h2>
+    <h2> Average rating : {{ avg_rating }} </h2>
+
+
+    <hr>
+    
+    <div class="outer_container">
+    {% for book in data %}
+    <div class ="inner_container">
+        <div>
+            {% comment %} <a href="{% url "book" book.id %}"> <h2> {{book.title}} </h2> </a> {% endcomment %}
+            <a href={{ book.get_absolute_url }}> <h2> {{book.title}} </h2> </a>
+        </div>
+        <div>
+            <h3> Author : {{ book.author}} </h3>
+        </div>
+    </div>
+    {% endfor%}
+    </div>
+
+{% endblock %}
+

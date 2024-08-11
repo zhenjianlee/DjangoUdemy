@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_title %} 
+{{ book }}
+{% endblock %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "book_store/book.css" %}"/>
+{% endblock %}
+
+{% block content %} 
+<div class="outer_container">
+    <div>
+        <h1> {{book.id}} : {{book.title}} </h1>
+    </div>
+    <div>
+        <h3> Rating : {{ book.rating}} </h3>
+        <h3> Author : {{ book.author}} </h3>
+        <h3> Bestseller : {{ book.is_bestselling}} </h3>
+    </div>
+</div>
+{% endblock %}
+
