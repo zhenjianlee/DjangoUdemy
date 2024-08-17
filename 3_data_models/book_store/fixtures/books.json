@@ -5,7 +5,7 @@
         "fields":{
             "title":"Django : The practical guide",
             "rating":10,
-            "author":"Max Schwarz",
+            "author":1,
             "is_bestselling":true,
             "slug":"django-the-practical-guide"
         }
@@ -16,7 +16,7 @@
         "fields":{
             "title":"Flask : Create API",
             "rating":8,
-            "author":"Jose Portilla",
+            "author":2,
             "is_bestselling":false,
             "slug":"flask-create-api"
 
@@ -28,7 +28,7 @@
         "fields":{
             "title":"Laravel : Django, but in PHP",
             "rating":8,
-            "author":"Tim tom tack",
+            "author":3,
             "is_bestselling":false,
             "slug":"laravel-django-but-in-php"
         }
@@ -39,7 +39,7 @@
         "fields":{
             "title":"Java : Java17 Masterclass",
             "rating":9,
-            "author":"Tim Bulchaka",
+            "author":4,
             "is_bestselling":true,
             "slug":"java-java17-master-class"
         }
@@ -50,7 +50,7 @@
         "fields":{
             "title":"SpringBoot : Spring Masterclass",
             "rating":9,
-            "author":"Chad Darby",
+            "author":5,
             "is_bestselling":false,
             "slug":"springboot-spring-master-class"
         }

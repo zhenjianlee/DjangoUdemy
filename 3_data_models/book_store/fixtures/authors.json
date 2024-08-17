@@ -1,0 +1,43 @@
+[
+    {
+        "model":"book_store.author",
+        "pk":1,
+        "fields":{
+            "first_name":"Max" ,
+            "last_name": "Schwarz"
+        }
+    },
+    {
+        "model":"book_store.author",
+        "pk":2,
+        "fields":{
+            "first_name":"Jose" ,
+            "last_name": "Portilla"
+        }
+    },
+    {
+        "model":"book_store.author",
+        "pk":3,
+        "fields":{
+            "first_name":"Taylor" ,
+            "last_name": "Otwell"
+        }
+    },
+    {
+        "model":"book_store.author",
+        "pk":4,
+        "fields":{
+            "first_name":"Tim" ,
+            "last_name": "Bulchalka"
+        }
+    },
+    {
+        "model":"book_store.author",
+        "pk":5,
+        "fields":{
+            "first_name":"Chad" ,
+            "last_name": "Darby"
+        }
+
+    }
+]
