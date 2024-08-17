@@ -5,15 +5,15 @@ from django.utils.text import slugify
 
 # Create your models here.
 
-
-class Address(models.Model):
-    street = models.CharField(max_length=200)
-    postal_code = models.CharField(max_length=100)
-    city= models.CharField(max_length=100)
-    author = models.one_to_one_field(Author,on_delete=models.CASCADE)
+class Country(models.Model):
+    name=models.CharField(max_length=100)
+    code=models.CharField(max_length=3)
 
     def __str__(self):
-        return f"{self.street, self.postal_code, self.city}"
+        return f"{self.name}({self.code})"
+
+    class Meta:
+        verbose_name_plural="Countries"
 
 
 class Author(models.Model):
@@ -24,6 +24,21 @@ class Author(models.Model):
     def __str__(self):
         return f"first_name: {self.first_name} , last_name:{self.last_name}"
 
+
+class Address(models.Model):
+    street = models.CharField(max_length=200)
+    postal_code = models.CharField(max_length=100)
+    city= models.CharField(max_length=100)
+    author = models.OneToOneField(Author,on_delete=models.CASCADE,null=True)
+
+    
+    def __str__(self):
+        return f"{self.street, self.postal_code, self.city}"
+
+    class Meta:
+        verbose_name_plural = "Address Entries" #changes plural name in Admin
+
+
 class Book(models.Model):
     # id is automatically added by django
     title = models.CharField(max_length=50)
@@ -33,6 +48,7 @@ class Book(models.Model):
     author=models.ForeignKey(Author,on_delete=models.CASCADE,null=True,related_name="books")
     is_bestselling = models.BooleanField(default=False)
     slug = models.SlugField(default="",blank=True, null=False,db_index=True)
+    published_countries = models.ManyToManyField(Country,related_name="books") #MANY TO MANY!
 
     def get_absolute_url(self):
         #return reverse("book",args=[self.id]) #using id

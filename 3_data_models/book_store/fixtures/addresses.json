@@ -1,0 +1,52 @@
+[
+    {
+        "model": "book_store.address",
+        "pk":1,
+        "fields":{
+            "street":"Random street 1",
+            "postal_code": "Random postal code 1",
+            "city": "Random city 1",
+            "author":1
+        }
+    },
+    {
+        "model": "book_store.address",
+        "pk":2,
+        "fields":{
+            "street":"Random street 2",
+            "postal_code": "Random postal code 2",
+            "city": "Random city 2",
+            "author":2
+        }
+    },
+    {
+        "model": "book_store.address",
+        "pk":3,
+        "fields":{
+            "street":"Random street 3",
+            "postal_code": "Random postal code 3",
+            "city": "Random city 3",
+            "author":3
+        }
+    },
+    {
+        "model": "book_store.address",
+        "pk":4,
+        "fields":{
+            "street":"Random street 4",
+            "postal_code": "Random postal code 4",
+            "city": "Random city 4",
+            "author":4
+        }
+    },
+    {
+        "model": "book_store.address",
+        "pk":5,
+        "fields":{
+            "street":"Random street 5",
+            "postal_code": "Random postal code 5",
+            "city": "Random city 5",
+            "author":5
+        }
+    }
+]

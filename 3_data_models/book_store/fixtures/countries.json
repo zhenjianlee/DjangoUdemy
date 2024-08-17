@@ -1,0 +1,26 @@
+[
+    {   
+        "model":"book_store.country",
+        "pk":1,
+        "fields":{
+            "name": "Germany",
+            "code":"GER"
+        }
+    },
+    {   
+        "model":"book_store.country",
+        "pk":2,
+        "fields":{
+            "name": "Singapore",
+            "code":"SGP"
+        }
+    },
+    {   
+        "model":"book_store.country",
+        "pk":3,
+        "fields":{
+            "name": "United Kingdom",
+            "code":"UK"
+        }
+    }
+]

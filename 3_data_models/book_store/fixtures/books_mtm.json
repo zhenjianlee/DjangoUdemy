@@ -1,0 +1,64 @@
+[
+    {
+        "model": "book_store.book",
+        "pk":1,
+        "fields":{
+            "title":"Django : The practical guide",
+            "rating":10,
+            "author":1,
+            "is_bestselling":true,
+            "slug":"django-the-practical-guide",
+            "published_countries":[1,2]
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk":2,
+        "fields":{
+            "title":"Flask : Create API",
+            "rating":8,
+            "author":2,
+            "is_bestselling":false,
+            "slug":"flask-create-api",
+            "published_countries":[1,2,3]
+
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk":3,
+        "fields":{
+            "title":"Laravel : Django, but in PHP",
+            "rating":8,
+            "author":3,
+            "is_bestselling":false,
+            "slug":"laravel-django-but-in-php"
+            ,
+            "published_countries":[2]
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk":4,
+        "fields":{
+            "title":"Java : Java17 Masterclass",
+            "rating":9,
+            "author":4,
+            "is_bestselling":true,
+            "slug":"java-java17-master-class",
+            "published_countries":[1,2,3]
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk":5,
+        "fields":{
+            "title":"SpringBoot : Spring Masterclass",
+            "rating":9,
+            "author":5,
+            "is_bestselling":false,
+            "slug":"springboot-spring-master-class",
+            "published_countries":[3]
+        }
+    }
+]
