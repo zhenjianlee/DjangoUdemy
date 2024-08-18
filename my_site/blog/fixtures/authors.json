@@ -1,0 +1,47 @@
+[
+    {
+        "model":"blog.author",
+        "pk":1,
+        "fields":{
+            "first_name":"Fat",
+            "last_name": "Pig",
+            "email":"fat.pig@test.com"
+        }
+    },
+    {
+        "model":"blog.author",
+        "pk":2,
+        "fields":{
+            "first_name":"Emilia",
+            "last_name": "Lee",
+            "email":"emilia.lee@test.com"
+        }
+    },
+    {
+        "model":"blog.author",
+        "pk":3,
+        "fields":{
+            "first_name":"Zhen Jian",
+            "last_name": "Lee",
+            "email":"zhenjian.lee@test.com"
+        }
+    },
+    {
+        "model":"blog.author",
+        "pk":4,
+        "fields":{
+            "first_name":"Tho",
+            "last_name": "Nguyen",
+            "email":"tho.nguyen@test.com"
+        }
+    },
+    {
+        "model":"blog.author",
+        "pk":5,
+        "fields":{
+            "first_name":"Emma",
+            "last_name": "Lee",
+            "email":"emma.lee@test.com"
+        }
+    }
+]

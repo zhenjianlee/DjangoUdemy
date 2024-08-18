@@ -1,0 +1,67 @@
+[
+    {
+        "model":"blog.post",
+        "pk":1,
+        "fields":{
+            "author":1,
+            "title":"Random post 1",
+            "excerpt":"Random excerpt 1",
+            "image_name": "randomimage1.jpeg",
+            "date":"2024-08-18",
+            "slug":"post-1",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id posuere est. Nullam et metus dictum, vulputate elit non, dignissim dui. Suspendisse sed scelerisque turpis. Mauris pellentesque vulputate nulla, eget mattis turpis eleifend vel. Mauris placerat pellentesque elit, ac accumsan diam hendrerit sit amet. Proin tellus odio, condimentum ac felis ac, scelerisque iaculis nisi. Nunc id dui justo. Donec nec sodales tellus, nec dignissim ex. Donec suscipit arcu sem, quis ultrices lectus ullamcorper in.Vivamus sagittis vulputate urna, a suscipit eros lobortis ut. Duis nulla nulla, sodales vitae neque sit amet, posuere convallis nunc. In accumsan lectus eu dignissim commodo."
+        }
+    },
+    {
+        "model":"blog.post",
+        "pk":2,
+        "fields":{
+            "author":1,
+            "title":"Random post 2",
+            "excerpt":"Random excerpt 2",
+            "image_name": "randomimage2.jpeg",
+            "date":"2024-08-18",
+            "slug":"post-2",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id posuere est. Nullam et metus dictum, vulputate elit non, dignissim dui. Suspendisse sed scelerisque turpis. Mauris pellentesque vulputate nulla, eget mattis turpis eleifend vel. Mauris placerat pellentesque elit, ac accumsan diam hendrerit sit amet. Proin tellus odio, condimentum ac felis ac, scelerisque iaculis nisi. Nunc id dui justo. Donec nec sodales tellus, nec dignissim ex. Donec suscipit arcu sem, quis ultrices lectus ullamcorper in.Vivamus sagittis vulputate urna, a suscipit eros lobortis ut. Duis nulla nulla, sodales vitae neque sit amet, posuere convallis nunc. In accumsan lectus eu dignissim commodo."
+        }
+    },
+    {
+        "model":"blog.post",
+        "pk":3,
+        "fields":{
+            "author":2,
+            "title":"Random post 3",
+            "excerpt":"Random excerpt 3",
+            "image_name": "randomimage3.jpeg",
+            "date":"2024-08-18",
+            "slug":"post-3",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id posuere est. Nullam et metus dictum, vulputate elit non, dignissim dui. Suspendisse sed scelerisque turpis. Mauris pellentesque vulputate nulla, eget mattis turpis eleifend vel. Mauris placerat pellentesque elit, ac accumsan diam hendrerit sit amet. Proin tellus odio, condimentum ac felis ac, scelerisque iaculis nisi. Nunc id dui justo. Donec nec sodales tellus, nec dignissim ex. Donec suscipit arcu sem, quis ultrices lectus ullamcorper in.Vivamus sagittis vulputate urna, a suscipit eros lobortis ut. Duis nulla nulla, sodales vitae neque sit amet, posuere convallis nunc. In accumsan lectus eu dignissim commodo."
+        }
+    },
+    {
+        "model":"blog.post",
+        "pk":4,
+        "fields":{
+            "author":3,
+            "title":"Random post 4",
+            "excerpt":"Random excerpt 4",
+            "image_name": "randomimage4.jpeg",
+            "date":"2024-08-18",
+            "slug":"post-4",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id posuere est. Nullam et metus dictum, vulputate elit non, dignissim dui. Suspendisse sed scelerisque turpis. Mauris pellentesque vulputate nulla, eget mattis turpis eleifend vel. Mauris placerat pellentesque elit, ac accumsan diam hendrerit sit amet. Proin tellus odio, condimentum ac felis ac, scelerisque iaculis nisi. Nunc id dui justo. Donec nec sodales tellus, nec dignissim ex. Donec suscipit arcu sem, quis ultrices lectus ullamcorper in.Vivamus sagittis vulputate urna, a suscipit eros lobortis ut. Duis nulla nulla, sodales vitae neque sit amet, posuere convallis nunc. In accumsan lectus eu dignissim commodo."
+        }
+    },
+    {
+        "model":"blog.post",
+        "pk":5,
+        "fields":{
+            "author":3,
+            "title":"Random post 5",
+            "excerpt":"Random excerpt 5",
+            "image_name": "randomimage5.jpeg",
+            "date":"2024-08-18",
+            "slug":"post-5",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id posuere est. Nullam et metus dictum, vulputate elit non, dignissim dui. Suspendisse sed scelerisque turpis. Mauris pellentesque vulputate nulla, eget mattis turpis eleifend vel. Mauris placerat pellentesque elit, ac accumsan diam hendrerit sit amet. Proin tellus odio, condimentum ac felis ac, scelerisque iaculis nisi. Nunc id dui justo. Donec nec sodales tellus, nec dignissim ex. Donec suscipit arcu sem, quis ultrices lectus ullamcorper in.Vivamus sagittis vulputate urna, a suscipit eros lobortis ut. Duis nulla nulla, sodales vitae neque sit amet, posuere convallis nunc. In accumsan lectus eu dignissim commodo."
+        }
+    }
+]
