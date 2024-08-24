@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'reviews',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,9 +75,13 @@ WSGI_APPLICATION = 'forms.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME":"django_training_forms",
+        "USER": "zhenjianlee",
+        "PASSWORD": "zhenjianlee",
+        "HOST": "127.0.0.1",
+        "PORT": "3306",
     }
 }
 

@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static "reviews/styles.css" %}">
+  </head>
+  <body>
+    <form action = '/reviews/' method="POST">
+      {% csrf_token %}
+
+      {% for fields in form %}
+      <div class="form-control" {% if form.user_name.errors %} errors {% endif %}>
+        {{ fields.label_tag }}
+        {{ fields}}
+        {{ fields.errors }}
+      </div>
+      {% endfor %}
+
+      {% comment %} <div class="form-control" {% if form.user_name.errors %} errors {% endif %}>
+        {{ form.user_name.label_tag }}
+        {{ form.user_name }}
+        {{ form.user_name.errors }}
+      </div>
+      <div class="form-control" {% if form.user_name.errors %} errors {% endif %}>
+        {{ form.review_text.label_tag}}
+        {{ form.review_text}}
+        {{ form.review_text.errors}}
+      </div>
+      <div class="form-control" {% if form.user_name.errors %} errors {% endif %}>
+        {{ form.rating.label_tag }}
+        {{ form.rating }}
+        {{ form.rating.errors}}
+      </div> {% endcomment %}
+      
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
